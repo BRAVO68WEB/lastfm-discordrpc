@@ -1,0 +1,30 @@
+{
+  "textConfig": {
+    "details": "",
+    "state": ""
+  },
+  "imageConfig": {
+    "smallKey": "",
+    "largeKey": "",
+    "smallText": "",
+    "largeText": "",
+    "showButton": true
+  },
+  "timeConfig": {
+    "timeType": "none",
+    "whatTime": "0s"
+  },
+  "serviceConfig": {
+    "titlePrefix": "",
+    "artistPrefix": "",
+    "useUserInterface": true,
+    "useTimestamps": true,
+    "customClientID": "none",
+    "lastFM": {
+      "key": "",
+      "secret": "",
+      "username": ""
+    }
+  },
+  "clientID": ""
+}

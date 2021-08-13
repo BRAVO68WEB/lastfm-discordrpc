@@ -1,0 +1,37 @@
+{
+  "name": "lastfm-discordrpc",
+  "version": "1.0.0",
+  "description": "A Discord Rich Presence Status through RPC automated with LastFM",
+  "main": "scripts/lastfm/main.js",
+  "author": "dotJS",
+  "license": "MIT",
+  "homepage": "https://github.com/BRAVO68WEB/lastfm-discordrpc#readme",
+  "bugs": {
+    "url": "https://github.com/BRAVO68WEB/lastfm-discordrpc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRAVO68WEB/lastfm-discordrpc.git"
+  },
+  "scripts": {
+    "lastfm": "electron scripts/lastfm/main.js"
+  },
+  "dependencies": {
+    "@dnode/parse-duration": "^1.4.2",
+    "discord-rpc": "github:devsnek/discord-rpc",
+    "electron": "^8.1.1",
+    "lastfm": "^0.9.2",
+    "moment": "^2.19.2",
+    "open": "7.0.3",
+    "osascript-promise": "^1.0.0",
+    "parse-duration": "^0.1.1",
+    "snekfetch": "^3.5.8"
+  },
+  "browser": {
+    "net": false,
+    "ws": false,
+    "uws": false,
+    "erlpack": false,
+    "src/transports/IPC.js": false
+  }
+}
