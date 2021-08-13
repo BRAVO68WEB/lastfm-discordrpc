@@ -1,6 +1,10 @@
 # lastfm-discordrpc
 
-A Discord Rich Presence Status through RPC! automated with LastFM
+![GitHub](https://img.shields.io/github/license/bravo68web/lastfm-discordrpc?style=for-the-badge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bravo68web/lastfm-discordrpc?style=for-the-badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/bravo68web/lastfm-discordrpc?style=for-the-badge)
+
+A Discord Rich Presence Status through RPC automated with LastFM
 
 ## Installation
 
